@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Kavoon);
+
+body
+{
+  padding: 10px;
+  background: #F7ECC9;
+  font-family: 'Kavoon', cursive;
+}
+
+nav
+{
+  background: #E5D9B8;
+  font-family: 'Kavoon', cursive;
+  padding: 10px;
+}
+
+nav a
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #6C7A7A;
+}
+
+nav a:hover
+{
+  background: #C7C6AE;
+  padding: 10px;
+  color: #6C7A7A;
+}
+
+.task_list_container
+{
+
+}
+
+.task_list
+{
+
+}
+
+.task
+{
+
+}
+
+.task_title
+{
+
+}
+
+.task_description
+{
+
+}
+
+section
+{
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #6C7A7A;
+}
+
+section h2
+{
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  font-size: 20px;
+  color: #6C7A7A;
+}
+
+form
+{
+  background-color: #E5D9B8;
+  padding: 5px;
+}
+
+input
+{
+  color: #6C7A7A;
+  background-color: #C7C6AE;
+  width: 160px;
+  height: 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+textarea
+{
+  color: #6C7A7A;
+  background: #C7C6AE;
+  width: 160px;
+  height: 80px;
+  margin: 10px 0px 10px 0px;
+}
+
+button
+{
+  color: #6C7A7A;
+  background-color: #C7C6AE;
+  width: 160px;
+}
+
+.task_form
+{
+
+}
+
+.task_title_input
+{
+
+}
+
+.task_description_textarea
+{
+
+}
+

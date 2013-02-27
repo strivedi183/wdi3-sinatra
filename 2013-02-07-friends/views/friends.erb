@@ -1,0 +1,20 @@
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Title</a>
+    <ul class="nav">
+      <li><a href="/">Home</a></li>
+      <li class="active"><a href="/friends">List Friends</a></li>
+      <li><a href="/add">Add Friends</a></li>
+    </ul>
+  </div>
+</div>
+
+<% @rows.each do |row| %>
+  <%= row["name"] %>
+  <%= row["age"] %>
+  <%= row["gender"] %>
+  <%= row["image"] %>
+  <%= row["twitter"] %>
+  <%= row["facebook"] %>
+  <%= row["github"] %>
+<% end %>

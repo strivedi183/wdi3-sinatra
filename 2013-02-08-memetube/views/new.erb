@@ -1,0 +1,24 @@
+<div class="span3">
+</div>
+<div class="span6">
+  <form method='post' action='<%= @row.nil? ? "/create" : "/videos/#{@row['id']}" %>'>
+    <fieldset>
+      <legend><%= @row.nil? ? "New Video" : "Edit Video"  %></legend>
+        <label>Meme Title: </label>
+          <input class="span6" value='<%= @row['title'] if @row %>' type='text' name='title' placeholder="Title of the video..." autofocus>
+        <label>Meme Description: </label>
+          <textarea class="span6" value='<%= @row['description'] if @row %>' type='text' name='description' placeholder="Description of video..."></textarea>
+        <label>Meme URL from Youtube: </label>
+          <input class="span6" value='<%= @row['url'] if @row %>' type='text' name='url' placeholder="URL of the video...">
+        <label>Meme Genre: </label>
+          <input class="span6" value='<%= @row['genre'] if @row %>' type='text' name='genre' placeholder="Genre of the video...">
+            <% @form_rows.each do |row| %>
+            <span class="label label-info"><%= row['genre'] %></span>
+            <% end %>
+            <br /><br />
+        <button type="submit" class="btn btn-primary"><%= @row.nil? ? "New Video" : "Edit Video"  %></button>
+    </fieldset>
+  </form>
+</div>
+<div class="span3">
+</div>

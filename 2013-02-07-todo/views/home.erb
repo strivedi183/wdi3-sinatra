@@ -1,0 +1,18 @@
+Testing out the HOME.erb
+
+<br>
+
+<div class="task_list_container">
+<ul class="task_list">
+<% @rows.each do |row| %>
+  <li class="task">
+    <span class="task_title">
+      Title: <%= row["task_title"].gsub('["',"").gsub('"]',"") %><br>
+    </span>
+    <span class="task_description">
+      Description: <%= row["task_description"] %>
+    </span>
+  </li>
+<% end %>
+</ul>
+</div>

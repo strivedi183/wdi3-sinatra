@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Diplomata+SC);
+
+body
+{
+ background: url("background.gif");
+ font-family: 'Diplomata SC', cursive;
+}
+
+header
+{
+  margin: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 30px
+}
+
+section
+{
+  display: inline-block;
+  border: 2px solid lightgray;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+}
+
+.stock
+{
+  display: inline-block;
+  border: 2px solid lightgray;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
+}
+
+.stock_input
+{
+  display: block;
+}
+
+button
+{
+  font-family: 'Diplomata SC', cursive;
+}

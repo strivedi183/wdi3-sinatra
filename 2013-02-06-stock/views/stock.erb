@@ -1,0 +1,18 @@
+<header>
+  <h1>Quotester</h1>
+</header>
+
+<section>
+<div class="stock_input">
+<span class="stock">
+<form action="/stock" method="get">
+  <input type="text" name="stock_symbol">
+  <button>Get Quote!</button>
+</form>
+</span>
+</div>
+
+<span class="stock">
+<%= @stock_symbol %> is traded at $<%= @share_price %> a share.
+</span>
+</section>

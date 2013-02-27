@@ -1,0 +1,21 @@
+<header>
+<h1>Cool Calculator</h1>
+<h2>Too Cool for School</h2>
+</header>
+
+<form action="/calc" method="get">
+  <input type="text" name="first">
+  <input type="text" name="operator">
+  <input type="text" name="second">
+  <button>Calculate!</button>
+</form>
+
+<span class="num"><%= @first %></span>
+
+times
+
+<span class="num"><%= @second %></span>
+
+results in
+
+<span class="num"><%= @result %></span>
